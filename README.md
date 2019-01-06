@@ -1,7 +1,7 @@
 # Device Settings Demo App
 Control device settings including full screen view, screen orientation, disabling swipe-to-reload gesture, wake lock, page zoom, sound volume, muting sound. Obtain device information including Android app version, GPS state, network connection type, WiFi state and IP, display rotation.
 
-[![Deploy](https://www.oomwoo.com/wp-content/uploads/2018/11/deploy.png)](http://localhost:4200/deploy)
+[![Deploy](https://www.oomwoo.com/wp-content/uploads/2018/11/deploy.png)](http://localhost:4200/deploy?)
 
 ## Live Demo
 - [Sample app](https://kaia.ai/view-app/5bf3b412a444a76d57bd2899)
