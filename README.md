@@ -46,3 +46,4 @@ let config = {
 };
 await deviceSettings.configure(config);
 ````
+<button type="button">click me!</button>
