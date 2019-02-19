@@ -1,0 +1,54 @@
+{
+
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": { // only support en-US for now
+          "name": "App Title",  // copy to app title in db
+          "description": "Brief description",  // copy to app description in db
+                                               //  but we will later use README as full app description like GitHub
+          "keywords": [  // copy to app tags in db
+            "robotics",
+            "locomotion"
+          ],
+          "smallIconUri": "/assets/appicon.png" // this is app icon, copy to app link in db        
+        }
+      },
+      "appVersion": "1.2.3"      // copy to app version in db
+      "isAvailableWorldwide": true,
+      "category": "companion",
+      "distributionCountries": [ // if isAvailableWorldwide == false, array of distribution countries
+                                 // in ISO 3166-1 alpha-2 format
+        "US",
+        "GB",
+        "DE"
+      ]
+    },
+    developmentInformation: {
+      "developerName": "COMPANY INC",  // Developer Name, ignore
+      "repository": {  // copy to app repo link in db (like npm)
+        "type": "git",
+        "url": "https://github.com/WebCrazy003/device-settings/"
+      },
+      "license": "Apache-2.0",  // app license, copy to db
+      "bugs": { // link to app issues, copy to db
+          "url": "https://github.com/kaiaai/kaia.js/issues"
+      },
+      "homepage": "https://github.com/kaiaai/kaia.js", // this is app homepage, ignore during install
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://example.com/termsOfUse",
+          "privacyPolicyUrl": "http://example.com/privacyPolicy"
+        }
+      },
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false,
+      "containsAds": false
+    }  
+  },
+  "manifestVersion": "1.0"
+}
