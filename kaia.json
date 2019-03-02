@@ -6,7 +6,7 @@
           "name": "App Title",
           "description": "Brief description",
           "keywords": ["robotics", "locomotion"],
-          "smallIconPath": "/assets/appicon.png"
+          "smallIconPath": "/assets/small_icon.png"
         }
       },
       "appVersion": "1.2.3",
